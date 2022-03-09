@@ -34,3 +34,6 @@ https://www.makerchip.com/
 It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/
 
 ### Circuit Diagram in eSim:
+![CMOS Schmitt trigger picture](https://user-images.githubusercontent.com/98162318/157430168-150fa433-3dc7-467f-ae74-09130052ef7d.png)
+
+
