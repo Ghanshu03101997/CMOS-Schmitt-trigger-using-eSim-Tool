@@ -8,10 +8,10 @@
     * [Makerchip](#makerchip)
 - [Circuit Diagram in eSim](#circuit-diagram-in-esim)
 - [Waveforms](#waveforms)
-    * [Input(v1)](#input(v1))
-    * [Input(v2)](#input(v2))
-    * [Output of instrumentation amplifier](#Output-of-instrumentation-amplifier)
-    * [Output waveform](#Output-waveform)
+     * [Dc Response](#Dc-Response)
+  
+   
+  
 - [Acknowlegdements](#acknowlegdements)
 - [References](#references)
  
