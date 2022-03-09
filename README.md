@@ -15,3 +15,20 @@ This circuit Act as a Inverter there is a No change in the property but the Ques
 From the circuit diagram M4 and M5 are PMOS transistor are connected in series. And M1 and M2 Nmos transistor connected in series.
 If we will give O logic in input side the M4 and M5 transistor are activated and M1 and M2 transistor are dectivated. 
 If will give logic 1 in input side the M1 and M2 are activated and M4 and M5 are deactivated .
+
+### Software Used:
+eSim
+It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
+For more details refer:
+https://esim.fossee.in/home
+
+NgSpice
+It is an Open Source Software for Spice Simulations. For more details refer:
+http://ngspice.sourceforge.net/docs.html
+
+Makerchip
+It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+https://www.makerchip.com/
+
+Verilator
+It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/
