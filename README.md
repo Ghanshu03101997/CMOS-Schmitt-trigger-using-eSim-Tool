@@ -32,3 +32,5 @@ https://www.makerchip.com/
 
 #### Verilator
 It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/
+
+### Circuit Diagram in eSim:
