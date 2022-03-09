@@ -9,3 +9,6 @@ In the first waveform, the input signal has no noise. So, the output is perfect.
 ![DocScanner 09-Mar-2022 11-40 am](https://user-images.githubusercontent.com/98162318/157423423-2ed58027-6dcc-439a-b663-9139a16fc844.jpg)
 
 This circuit Act as a Inverter there is a No change in the property but the Question is what is the advantage or what kind of differences we will observe if we have provided two pull up transistor in the series and pull down transistor in the series. so the advantages will be effectively the width of the complete pull-up network will increase by double there is no change in the lenght but the width is going to be double like if I am considering the M3 and M2 and M4 and M5 are same size so the effective width of this pull up network.  
+From the circuit diagram M4 and M5 are PMOS transistor are connected in series. And M1 and M2 Nmos transistor connected in series.
+If we will give O logic in input side the M4 and M5 transistor are activated and M1 and M2 transistor are dectivated. 
+If will give logic 1 in input side the M1 and M2 are activated and M4 and M5 are deactivated .
