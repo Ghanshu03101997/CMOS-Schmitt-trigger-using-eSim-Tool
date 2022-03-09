@@ -1,0 +1,26 @@
+* c:\users\lenovo\esim-workspace\schmitt_trigger\schmitt_trigger.cir
+
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+m3 net-_m3-pad1_ in net-_m3-pad3_ net-_m3-pad1_ CMOSP W=100u L=100u M=1
+m4 net-_m3-pad3_ in out net-_m3-pad3_ CMOSP W=100u L=100u M=1
+m1 out in net-_m1-pad3_ net-_m1-pad3_ CMOSN W=100u L=100u M=1
+m2 net-_m1-pad3_ in net-_m2-pad3_ net-_m2-pad3_ CMOSN W=100u L=100u M=1
+m6 net-_m6-pad1_ out net-_m1-pad3_ net-_m1-pad3_ CMOSN W=100u L=100u M=1
+m5 net-_m3-pad3_ out gnd net-_m3-pad3_ CMOSP W=100u L=100u M=1
+v2  net-_m3-pad1_ gnd 1.8
+v3  net-_m6-pad1_ net-_m2-pad3_ 1.8
+* u2  out plot_v1
+* u1  in plot_v1
+v1  in gnd 1.8
+.op
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(out)
+plot v(in)
+.endc
+.end
