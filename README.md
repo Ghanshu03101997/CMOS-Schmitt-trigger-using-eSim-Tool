@@ -1,4 +1,20 @@
 # CMOS Schmitt-Trigger using eSim-Tool
+- [Abstract](#abstract)
+- [Reference Circuit Diagram](#reference-circuit-diagram)
+- [Circuit Details](#circuit-details)
+- [Software Used](#software-used)
+    * [eSim](#esim)
+    * [NgSpice](#ngspice)
+    * [Makerchip](#makerchip)
+- [Circuit Diagram in eSim](#circuit-diagram-in-esim)
+- [Waveforms](#waveforms)
+    * [Input(v1)](#input(v1))
+    * [Input(v2)](#input(v2))
+    * [Output of instrumentation amplifier](#Output-of-instrumentation-amplifier)
+    * [Output waveform](#Output-waveform)
+- [Acknowlegdements](#acknowlegdements)
+- [References](#references)
+ 
 ## Abstract:- 
 CMOS Schmitt trigger design with given circuit thresholds is described. The approach is based on studying the transient from one stable state to another when the trigger is in linear operation. 
 ## Introduction:-
