@@ -55,5 +55,6 @@ https://www.veripool.org/verilator/
 4. Sumanto Kar, eSim Team, FOSSEE
 
 ## References
+[1] Filanovsky, I. M., and H. Baltes. "CMOS Schmitt trigger design." IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications 41.1 (1994): 46-49.
 
 
