@@ -55,15 +55,16 @@ It is a tool which converts Verilog code to C++ objects. Refer:
 
 https://www.veripool.org/verilator/
 
-## Circuit Diagram in eSim:
+### Circuit Diagram in eSim:
 
 ![image](https://user-images.githubusercontent.com/98162318/157478144-5b814285-6bec-4848-8497-aee9acf56db0.png)
 
 
 
 ## Waveforms
+![new schmitt trigger1](https://user-images.githubusercontent.com/98162318/157637097-dde9f98d-50bb-4296-8b8d-d6c7af7f9b61.png)
 
-![new schmitt trigger](https://user-images.githubusercontent.com/98162318/157476101-ecad6069-1460-4147-a97d-f942b7f304f0.png)
+
 
 ## Acknowlegdements:
 1. FOSSEE, IIT Bombay
